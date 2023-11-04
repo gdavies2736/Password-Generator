@@ -128,6 +128,9 @@ if (!wantSpecialCharacters && !wantUpperCase && !wantLowerCase && !wantNumericCh
   return " "
 }
 //create new array based on user selection
+//if user selects yes to prompts, characters should go into array. Use if 
+//statements to determine whether characters should be included in the array.
+
 var characterChoices = []
 if (wantSpecialCharacters) {
   characterChoices = characterChoices.concat(specialCharacters);
@@ -141,6 +144,10 @@ if (wantLowerCase) {
 if (wantNumericChars) {
   characterChoices = characterChoices.concat(numericCharacters); 
 }
+
+//create password variable password, on length selected by user.
+//randomly selected characters from characterChoices to be added to password variable.
+
 var password = ""
 for (let i = 0; i < passwordLength; i++) {
 
@@ -150,7 +157,6 @@ for (let i = 0; i < passwordLength; i++) {
 
 return password;
 }
-
 
 
 // Get references to the #generate element
