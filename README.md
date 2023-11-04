@@ -1,4 +1,17 @@
 # Password-Generator
+**
+Table of Contents**
+
+//1.Description
+//2.Issues
+//3.Usage
+//4.Installation
+//5.Credits
+//6.Licence
+//7. Description
+
+**//1.Description**
+
 The purpose of this Password-Generator work was to create an application that an employee would be able to use to randomly generate a random password based on criteria they are asked. 
 To create this application, I needed to modify the starter code I was presented with.
 
