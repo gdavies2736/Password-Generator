@@ -88,6 +88,19 @@ var upperCasedCharacters = [
   'Z'
 ];
 
+// 1. Prompt user for password critera including:
+// a. password length 8 < 128
+// b. lowercase, uppercase, numbers, special characters
+
+//2. Validate users' input
+//length 
+//whether user opted for special characters, numbers, upper & lowercase characters
+
+//3. Generate password based on user selection
+
+//4. Display output of generate password on the page.
+
+
 // Function to prompt user for password options
 function getPasswordOptions() {
 
@@ -100,7 +113,8 @@ function getRandom(arr) {
 
 // Function to generate password with user input
 function generatePassword() {
-
+console.log("Button clicked");
+return "This is where generated password will go";
 }
 
 // Get references to the #generate element
