@@ -27,19 +27,25 @@ To begin with the user will see the following screen:
 
 <br>
 
-When the user selects 'Generate password', they then see the following prompt: <br>
+When the user selects 'Generate password', they then see the following prompt: 
+
+<br>
 
 ![image](https://github.com/gdavies2736/Password-Generator/assets/89836987/cf615675-3276-4167-b0c5-89b2866ca8d1)
  
  <br>
 
-If the user selects a number outside of the parameters they will be informed that the password needs to be between 8 and 128 characters: <br>
+If the user selects a number outside of the parameters they will be informed that the password needs to be between 8 and 128 characters: 
+
+<br>
 
 ![image](https://github.com/gdavies2736/Password-Generator/assets/89836987/d24e2703-f8a3-4f5c-88c2-881b96067748)
 
 <br>
 
-If the user selects 'Generate password' and enters an accepted length password between 8 and 128 characters, they will be presented with the following confirms: <br>
+If the user selects 'Generate password' and enters an accepted length password between 8 and 128 characters, they will be presented with the following confirms: 
+
+<br>
 
 ![image](https://github.com/gdavies2736/Password-Generator/assets/89836987/26d86e84-c8c1-4841-b218-8b65fb2fd36f)
 
@@ -57,28 +63,32 @@ If the user selects 'Generate password' and enters an accepted length password b
 
 <br>
 
-The user will need to select at least one type of character selection otherwise they will see the following message: <br>
+The user will need to select at least one type of character selection otherwise they will see the following message:
+
+<br>
 
 ![image](https://github.com/gdavies2736/Password-Generator/assets/89836987/c6ed5ee7-a244-4d72-b88e-37ffd919d101)
 
 <br>
 
-Once the user's password meets the requirements, a password will be generated as shown in the following screenshot: <br>
+Once the user's password meets the requirements, a password will be generated as shown in the following screenshot: 
+
+<br>
 
 ![image](https://github.com/gdavies2736/Password-Generator/assets/89836987/e0a7b9b4-a569-4ccf-9db2-01031408f324)
 
 <br>
 
 <h3>2. Issues </h3>
-
+<br>
 When I initially looked in the starter code, I could see there were quite a few functions without code. I was unsure how to utilise each of these functions within the code. It took me a while to realise that I did not have to use all of them, but instead to focus on the generate password function. <br>
 
 I also found it challenging to work out how to generate the random password. I considered creating a new array of data, based on the user selections of types of characters they wanted in their passwords. I considered that I could store the relevant values from the existing arrays of data. The tricky part was trying to understand how the characters would then be randomly be selected from the new array that I had created. This required additional research and networking to understand this in a bit more detail. <br>
 
 <h3>3. Usage</h3>
 <br>
-This project may be useful for those learning Javascript concepts including:<br>
-
+This project may be useful for those learning Javascript concepts including:
+<br>
 1. Pseudo coding <br>
 2. Variables <br>
 3. Arrays <br>
@@ -88,8 +98,9 @@ This project may be useful for those learning Javascript concepts including:<br>
 
 To access this project, the deployed website can be viewed at:
 
-<h3> 4. No installation necessary </h3>
+<h3> 4. Installation </h3>
 <br>
+No Installation necessary.
 
 <h3> 5. Credits </h3>
 <br>
