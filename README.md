@@ -80,13 +80,13 @@ Once the user's password meets the requirements, a password will be generated as
 <br>
 
 <h3>2. Issues </h3>
-<br>
+
 When I initially looked in the starter code, I could see there were quite a few functions without code. I was unsure how to utilise each of these functions within the code. It took me a while to realise that I did not have to use all of them, but instead to focus on the generate password function. <br>
 
 I also found it challenging to work out how to generate the random password. I considered creating a new array of data, based on the user selections of types of characters they wanted in their passwords. I considered that I could store the relevant values from the existing arrays of data. The tricky part was trying to understand how the characters would then be randomly be selected from the new array that I had created. This required additional research and networking to understand this in a bit more detail. <br>
 
 <h3>3. Usage</h3>
-<br>
+
 This project may be useful for those learning Javascript concepts including:
 <br>
 1. Pseudo coding <br>
@@ -99,11 +99,11 @@ This project may be useful for those learning Javascript concepts including:
 To access this project, the deployed website can be viewed at:
 
 <h3> 4. Installation </h3>
-<br>
+
 No Installation necessary.
 
 <h3> 5. Credits </h3>
-<br>
+
 I was supported to complete this task by the EdX Front End Development Bootcamp Tutors and teaching staff and am grateful for their support and encouragement. <br>
 
 I used the following additional resources for support. <br>
@@ -113,6 +113,6 @@ I used the following additional resources for support. <br>
 3. Mimo application - https://mimo.org/ <br>
 
 <h3>6. License </h3>
-<br>
+
 MIT License. Details can be found in the repository under licencse.
 
