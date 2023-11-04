@@ -2,7 +2,7 @@
 
 Table of Contents
 
-1.Description
+1.Description <br>
 2.Issues
 3.Usage
 4.Installation
