@@ -113,9 +113,45 @@ function getRandom(arr) {
 
 // Function to generate password with user input
 function generatePassword() {
-console.log("Button clicked");
-return "This is where generated password will go";
+var passwordLength = prompt("How many characters would you like your password to contain?")
+if (passwordLength < 8 || passwordLength > 128) {
+  alert("Your password needs to be between 8 and 128 characters");
+  return " "
 }
+var wantSpecialCharacters = confirm("Do you want special characters?");
+var wantUpperCase = confirm("Do you want to use upper case characters?");
+var wantLowerCase = confirm("Do you want to use lower case characters?");
+var wantNumericChars = confirm("Do you want to use numeric characters?");
+
+if (!wantSpecialCharacters && !wantUpperCase && !wantLowerCase && !wantNumericChars) {
+  alert("You must choose one character type");
+  return " "
+}
+//create new array based on user selection
+var characterChoices = []
+if (wantSpecialCharacters) {
+  characterChoices = characterChoices.concat(specialCharacters);
+}
+if (wantUpperCase) {
+  characterChoices = characterChoices.concat(upperCasedCharacters);
+}
+if (wantLowerCase) {
+  characterChoices = characterChoices.concat(lowerCasedCharacters); 
+}
+if (wantNumericChars) {
+  characterChoices = characterChoices.concat(numericCharacters); 
+}
+var password = ""
+for (let i = 0; i < passwordLength; i++) {
+
+  var randomChar = characterChoices[Math.floor(Math.random()*characterChoices.length)]
+  password = password + randomChar
+}
+
+return password;
+}
+
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
