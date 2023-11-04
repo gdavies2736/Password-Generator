@@ -101,23 +101,23 @@ var upperCasedCharacters = [
 //4. Display output of generate password on the page.
 
 
-// Function to prompt user for password options
-function getPasswordOptions() {
-
-}
-
-// Function for getting a random element from an array
-function getRandom(arr) {
-
-}
-
 // Function to generate password with user input
 function generatePassword() {
-var passwordLength = prompt("How many characters would you like your password to contain?")
+  //create variable for length of password.
+  //password length depends on the amount of characters user selects.
+  //if password length is less than 8 character - "Your password needs to be between 8
+  //and 128 characters".
+
+  var passwordLength = prompt("How many characters would you like your password to contain?")
 if (passwordLength < 8 || passwordLength > 128) {
   alert("Your password needs to be between 8 and 128 characters");
   return " "
 }
+
+//confirm for each character type. Display message.
+//must choose at least 1 character type.
+//If no special character type selected - inform user they must choose one.
+
 var wantSpecialCharacters = confirm("Do you want special characters?");
 var wantUpperCase = confirm("Do you want to use upper case characters?");
 var wantLowerCase = confirm("Do you want to use lower case characters?");
