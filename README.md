@@ -31,4 +31,35 @@ Once the user's password meets the requirements, a password will be generated as
 
 Issues
 
+When I initially looked in the starter code, I could see there were quite a few functions without code. I was unsure how to utilise each of these functions within the code. It took me a while to realise that I did not have to use all of them, but instead to focus on the generate password function.
+
+I also found it challenging to work out how to generate the random password. I knew that I could create a new array of data, based on the user selections, to include the values within the existing arrays. The tricky part was trying to understand how the characters would randomly be selected. This required additional research and networking to understand this in a bit more detail.
+
+Usage
+
+This project may be useful for those learning Javascript concepts including:
+
+1. Pseudo coding
+2. Variables
+3. Arrays
+4. For loops
+5. If / else statements
+6. Functions
+
+To access this project, the deployed website can be viewed at:
+
+
+No installation necessary. 
+
+Credits
+I was supported to complete this task by the EdX Front End Development Bootcamp Tutors and teaching staff.
+
+I used the following additional resrouces for support. 
+
+1. Freecodecamp - insert address
+2. W3Schools - insert address
+3. Mimo application.
+
+License
+MIT License. Details can be found in the repository under licencse.
 
