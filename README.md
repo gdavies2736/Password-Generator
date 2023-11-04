@@ -97,6 +97,9 @@ This project may be useful for those learning Javascript concepts including:
 6. Functions <br>
 
 To access this project, the deployed website can be viewed at:
+<br>
+https://gdavies2736.github.io/Password-Generator/
+<br>
 
 <h3> 4. Installation </h3>
 
