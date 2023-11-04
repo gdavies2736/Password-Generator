@@ -1,6 +1,6 @@
-<h1> Password-Generator </h1>h1>
+<h1> Password-Generator </h1>
 
-Table of Contents
+<h2> Table of Contents </h2>
 
 1. Description <br>
 2. Issues <br>
@@ -10,20 +10,21 @@ Table of Contents
 6. Licence <br>
 7. Description <br>
 
-<h2> 1.Description </h2>
+<h3> 1.Description </h3>
 
 The purpose of this Password-Generator work was to create an application that an employee would be able to use to randomly generate a random password based on criteria they are asked. 
-To create this application, I needed to modify the starter code I was presented with.
+To create this application, I needed to modify the starter code I was presented with. <br>
 
-This application runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code that I have written. The interface is simplistic and it is responsive to multiple device screen size. 
+This application runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code that I have written. The interface is simplistic and it is responsive to multiple device screen size. <br>
 
-The application allows the user to generate a unique password varying from 8 characters to 128. The user is personalise their password by specifying if they would like to include special characters, numerical characters and upper or lower case characters. Once they have specified their preferences, the password will be randomly generated for them and presented on the screen.
+The application allows the user to generate a unique password varying from 8 characters to 128. The user is personalise their password by specifying if they would like to include special characters, numerical characters and upper or lower case characters. Once they have specified their preferences, the password will be randomly generated for them and presented on the screen. <br>
 
-The screenshots below show how the screen initially appears and the various stages of the password generator process.
-
-
+The screenshots below show how the screen initially appears and the various stages of the password generator process. <br>
 
 When the user selects 'Generate password', they then see the following prompt:
+
+![image](https://github.com/gdavies2736/Password-Generator/assets/89836987/bc33ef81-fa14-4a3d-8c28-f9033534e59c)
+
 
 
 If the user selects a number outside of the parameters they will be informed that the password needs to be between 8 and 128 characters:
