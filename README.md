@@ -15,7 +15,7 @@
 The purpose of this Password-Generator work was to create an application that an employee would be able to use to randomly generate a random password based on criteria they are asked. 
 To create this application, I needed to modify the starter code I was presented with. <br>
 
-This application runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code that I have written. The interface is simplistic and it is responsive to multiple device screen size. <br>
+This application runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code that I have written. The interface is simplistic and it is responsive to multiple device screen sizes. <br>
 
 The application allows the user to generate a unique password varying from 8 characters to 128. The user is personalise their password by specifying if they would like to include special characters, numerical characters and upper or lower case characters. Once they have specified their preferences, the password will be randomly generated for them and presented on the screen. <br>
 
